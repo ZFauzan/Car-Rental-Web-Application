@@ -1,0 +1,23 @@
+.footer {
+    box-sizing: border-box; 
+    border-top: solid;
+    border-width: 1.5px;
+    border-color: lightgray;
+    position: absolute; 
+    width: 1190px; 
+    height: 40px; 
+    left: 35px; 
+    top: 944px;  
+    background: #FFFFFF;
+}
+
+p { 
+    position: absolute;
+    width: 334px;
+    height: 30px;
+    left: -30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #000000;
+}
