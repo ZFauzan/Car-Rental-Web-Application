@@ -1,0 +1,101 @@
+/** LANDING PAGE STYLING */
+
+.landing-page{
+    margin: 2% 10%;
+    min-height: 55vh;
+}
+
+/* Banner styling */
+
+.landing>.banner-image{
+    background-image: linear-gradient(0deg, rgba(145, 64, 39, 0.5), rgba(0, 44, 95, 0.795)), url('https://www.blackhillsbadlands.com/sites/default/files/styles/bhb40_page_hero/public/photos/business/black-hills-car-rentals/bhautumn00047.jpg?itok=XZTUyUsq');
+    height: 60vh;
+    color: rgb(231, 226, 243);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.landing>.banner-image>section{
+    padding: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#button-banner{
+    background-image: linear-gradient(270deg, rgba(7, 114, 114, 0.486), rgba(11, 116, 165, 0.719));
+    width: '15%';
+}
+
+.banner-image>section>h1{
+    font-family:'Adobe Gothic Std', sans-serif;
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-bottom: -3%;
+}
+.banner-image>section>h3{
+    font-size: 2em;
+    font-weight: normal;
+}
+
+/* Search bar styling (location, datePickup, dateDropoff, searchButton) */
+
+.search-bar{
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+}
+
+.search-bar>.MuiFormControl-root{
+    margin-right: 3%;
+}
+
+.search-bar>.icons{
+    margin: 1% 0%;
+    margin-right: 1%;
+    transform: scale(1.2);
+}
+
+.search-bar>Button{
+    width: 13%;
+    min-width: 1%;
+    margin-left: auto;
+}
+
+/* Results header bar styling (heading, resultCount, dropdownSorttype) */
+
+.results-header-bar{
+    flex-flow: row wrap;
+    display: flex;
+    align-items: flex-end;
+}
+
+.results-header-bar>h1{
+    font-size: 2.3em;
+    margin-bottom: 0%;
+    margin-right: 1%;
+}
+
+.sortByDrop{
+    margin-left: auto;
+}
+
+.sortByDrop>.MuiFormControl-root{
+    font-size: 0.8em;
+    padding: 0% 1%;
+}
+
+/* Car table styling */
+
+#carTable-bigtext{
+    font-weight: 500;
+    margin-bottom: 1%;
+    font-size: 1.2em;
+}

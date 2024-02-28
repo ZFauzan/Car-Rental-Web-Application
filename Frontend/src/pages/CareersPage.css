@@ -1,0 +1,100 @@
+/** CAREERS/HELP PAGES STYLING */
+
+/* Careers - Background/banner styling */
+
+.careers>.banner-image{
+    background-image: linear-gradient(0deg, rgba(4, 92, 165, 0.349), rgba(0, 16, 88, 0.644)), url('https://cdn.wallpapersafari.com/14/19/wNxKAr.jpg');
+    height: 90vh;
+    color: rgb(236, 246, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    overflow: hidden;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.careers>.banner-image>section{
+    padding: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.banner-image h3>a{
+    color:white;
+}
+
+/* Careers - Career info tab styling */
+
+.careers-tab{
+    background-color: rgb(255, 255, 255);
+    padding: 1% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.carrow{
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+
+.careers-tab h1{
+    font-family:'Adobe Gothic Std', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: -0.4em;
+}
+.careers-tab h3{
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 1.6em;
+}
+
+.carcol{
+    padding-right: 4%;
+    width: 50%;
+    text-align: justify;
+}
+
+.carcol-2{
+    width: 50%;
+    background-image: url('../../public/work.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.hmm{
+    width: 100%;
+    min-width: auto;
+    text-align: center;
+    border: solid 2px #6a9bd365;
+    border-radius: 10px;
+}
+
+/* Help - Help page styling */
+
+.help>.banner-image{
+    background-image: linear-gradient(0deg, rgba(80, 8, 122, 0.349), rgba(0, 28, 59, 0.795)), url('https://storge.pic2.me/cm/2880x1800/243/57cc65bde9559.jpg');
+    /*width: 100vw;*/
+    height: 90vh;
+    color: rgb(250, 246, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 3.5em;
+}

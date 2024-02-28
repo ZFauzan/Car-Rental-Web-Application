@@ -1,0 +1,51 @@
+/** ACCESS RENTAL PAGE STYLING */
+
+.access_rental {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* Background styling */
+
+.access_rental>.banner-image{
+    position: fixed;
+    z-index: -1;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgba(47, 160, 189, 0.616), rgba(5, 101, 179, 0.74)), url('https://wallpaperaccess.com/full/3497075.jpg');
+}
+
+/* Form styling */
+
+.access-rental-box {
+    padding: 2% 8%;
+    box-shadow: 2px 4px 10px #c2c1c2;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    line-height: 1.5em;
+}
+
+.access-rental-box>h1 {
+    font-weight: 700;
+    font-size: 2.3em;
+    margin-bottom: 0.2em;
+}
+
+.access-rental-box>h3 {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.mui_textfield_styled,
+.input_box>.MuiFormControl-root {
+    margin-top: 4% !important;
+    padding-right: 4% !important;
+    width: 100%;
+}
+

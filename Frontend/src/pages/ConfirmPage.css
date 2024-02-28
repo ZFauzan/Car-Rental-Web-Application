@@ -1,0 +1,41 @@
+/** CONFIRM PAGE STYLING */
+
+.confirm-page{
+    background-image: linear-gradient(160deg, #dcf3fa, white);
+    height: 90vh;
+    background-attachment: fixed;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Confirm box styling */
+
+.confirm-box{
+    width: 30vw;
+    margin-bottom: 2%;
+    padding: 2% 0%;
+    box-shadow: 2px 4px 10px #c2c1c2;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_confirm{
+    width: 10vw;
+    margin-top: 2%;
+}
+
+.confirm-box>h1{
+    margin-bottom: -2%;
+}
+
+.confirm-box>h3{
+    font-weight: normal;
+}
+

@@ -1,0 +1,47 @@
+/** RENTAL DETAILS PAGE STYLING */
+
+.rental-details-page{
+    margin: 2% 5%;
+    font-size: 1em;
+    text-align: left;
+    padding-bottom: 5%;
+}
+
+/* Info box styling */
+
+.rental-info-box{
+    margin: auto;
+    width: 100%;
+    float: center;
+    display: flex; 
+    justify-content: center;
+    /*background-color: #eaf0fa;*/
+    border: solid 2px #6a9bd365;
+    border-radius: 10px;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+.rental-personal-info, .myrental-reservation-info, .rental-details-info {
+    box-sizing: border-box;
+    padding: 0% 5%;
+    width: 33%;
+}
+
+.rental-details-page>h1{
+    font-weight: 700;
+    font-size: 2.3em;
+    margin-bottom: -1em;
+    text-align: center;
+}
+
+.rental-details-page>h3 {
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.header_rental{
+    padding-top: 4%;
+    font-size: 1.4em ;
+}

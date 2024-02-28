@@ -1,0 +1,82 @@
+/** REVIEW PAGE STYLING */
+
+.review-page-full{
+    margin: 2% 10%;
+    font-size: 1em;
+}
+
+.review-page{
+    text-align: left;
+    display: flex;
+}
+
+.review-page>aside{ /*inside contact-page*/
+    margin-top: -1%;
+    width: 25%;
+    padding-right:5%;
+    min-width: 10%;
+    float: left;
+}
+
+/* Infobox styling (for this page only) */
+
+.review-page>.info-box{ /*inside contact-page*/
+    width: 70%;
+    min-width: auto;
+    margin: 2% 2%;
+    display: flex; 
+    justify-content: flex-end;
+    /*background-color: #e6edf0;*/
+    border: solid 2px #6a9bd365;
+    border-radius: 10px;
+    padding-bottom: 2%;
+}
+
+.info-box>.rental-info, .info-box>.personal-info{ /*inside info-box*/
+    box-sizing: border-box;
+    padding: 0% 5%;
+    width: 50%;
+}
+
+/* Infobox styling (general - for other pages too!) */
+
+aside>h1{
+    font-size: 2.3em;
+    font-weight: bold;
+    margin-bottom: -3%;
+}
+
+h2{
+    font-weight: 500;
+    margin-bottom: 1%;
+    font-size: 1.3em;
+}
+
+#car-preview{
+    width:50%;
+    /* background-image: url(https://www.pngmart.com/files/22/Jeep-Grand-Cherokee-PNG-Transparent.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+table{
+    width:100%;
+    min-width:100%;
+    line-height:1.8em;
+}
+td{
+    text-align:right;
+}
+th{
+    font-weight: 500;
+}
+
+#alert{
+    margin-top: 20%;
+    font-size:1em;
+}
+
+#alert-title{
+    font-size: 1.15em;
+    font-weight: bold;
+}

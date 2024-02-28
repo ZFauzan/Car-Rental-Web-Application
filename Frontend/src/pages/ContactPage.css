@@ -1,0 +1,77 @@
+/** CONTACT PAGE STYLING */
+
+.contact_page{
+    padding: 0.5% 10%;
+}
+
+.contact_page>h1{
+    text-align: left;
+    font-size: 2.3em;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Info box styling */
+
+.info_box_contact{ /*rental info*/
+    margin: 2% 0%;
+    display: flex;
+}
+
+.rental-info_contact{
+    width: 30%;
+    padding: 1.5%;
+    /*background-color: #e6edf0;*/
+    border: solid 2px #6a9bd365;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height:1em;
+}
+
+.rental-info_contact>h1{
+    margin-top: -0.5%;
+    margin-bottom: 5%;
+}
+
+.personal-info1{ /*inside info-box*/
+    padding-left: 5%;
+    width: 70%;
+    box-sizing: border-box;
+}
+.personal_header{
+    text-align: left;
+    margin: 0;
+    font-size: 1.8em;
+}
+
+/* Form styling */
+
+.input_boxes{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+}
+
+.mui_textfield_styled, .input_boxes>.MuiFormControl-root{
+    margin-top:4%!important;
+    padding-right: 4%!important;
+    width: 50%;
+}
+
+.checkbox_text{
+    width: 50vw;
+    text-align: left;
+    overflow-wrap: auto;
+    margin-left: 2%;
+}
+
+.checkbox{
+    text-align: left;
+}
+
+.checkbox_section{
+    padding: 0% 2%;
+    margin-top:1em;
+    display:flex;
+}
